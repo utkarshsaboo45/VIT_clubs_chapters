@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="hk.ust.cse.comp107x.vit_clubs_chapters.LoginPage.LoginImage1Fragment">
+
+    <ImageView
+        android:src="@drawable/tech"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+
+
+    <!--<com.matthewtamlin.sliding_intro_screen_library.indicators.DotIndicator-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:numberOfDots="3"-->
+        <!--app:selectedDotIndex="1"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:paddingBottom="32dp"/>-->
+
+</RelativeLayout>

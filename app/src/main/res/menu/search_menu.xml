@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hk.ust.cse.comp107x.vit_clubs_chapters.EventDetailsOriginal.EventDetails">
+
+        <item android:id="@+id/search"
+            android:title="Search"
+            android:icon="@drawable/magnifier"
+            app:showAsAction="always"
+            app:actionViewClass="android.widget.SearchView" />
+</menu>

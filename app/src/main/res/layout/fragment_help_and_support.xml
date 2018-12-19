@@ -1,0 +1,47 @@
+<!--<RelativeLayout--><!--xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context="hk.ust.cse.comp107x.vit_clubs_chapters.HelpAndSupport.HelpAndSupportFragment">-->
+
+<!--&lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;--><!--<TextView--><!--android:layout_width="match_parent"--><!--android:layout_height="55sp"--><!--android:text="Help and Support Section"--><!--android:textAlignment="center"--><!--android:textSize="24sp"--><!--android:layout_centerVertical="true"--><!--android:layout_alignParentLeft="true" />-->
+
+<!--</RelativeLayout>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="55dp"
+    android:background="#181818"
+    android:orientation="vertical"
+    tools:context="hk.ust.cse.comp107x.vit_clubs_chapters.HelpAndSupport.HelpAndSupportFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingBottom="2dp"
+        >
+
+        <TextView
+            android:id="@+id/documentation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="#181818"
+            android:padding="32dp"
+            android:text="Documentation"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/contact_developers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="#181818"
+            android:padding="32dp"
+            android:text="Contact Developers"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</LinearLayout>

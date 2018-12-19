@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hk.ust.cse.comp107x.vit_clubs_chapters.HelpAndSupport.DocumentationActivity"
+    android:background="#181818">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Documentation section"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:gravity="center_vertical"/>
+
+</android.support.constraint.ConstraintLayout>

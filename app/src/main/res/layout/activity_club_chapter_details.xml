@@ -1,0 +1,62 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="hk.ust.cse.comp107x.vit_clubs_chapters.ClubChapterDetails.ClubChapterDetailsFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="?attr/colorPrimary"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/cc_details_toolbar"
+            app:titleTextAppearance="@android:style/TextAppearance"
+            app:title="Club/Chapter Details"
+            app:titleTextColor="#FFFFFF"
+            android:scrollbarSize="15dp"
+            android:paddingLeft="30dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/search_cc_text"
+            android:hint="Search Club/Chapter"
+            android:layout_below="@+id/cc_details_toolbar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="76dp" />
+
+        <Button
+            android:text="Search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_cc_button"
+            android:layout_below="@+id/search_cc_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="51dp" />
+
+        <TextView
+            android:text="Club/Chapter Details here..."
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/textView3"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:layout_below="@+id/search_cc_button"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="102dp" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

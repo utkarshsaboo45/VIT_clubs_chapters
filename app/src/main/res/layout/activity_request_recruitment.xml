@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#181818"
+    tools:context="hk.ust.cse.comp107x.vit_clubs_chapters.Recruitments.RequestRecruitmentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APPLY HERE"
+            android:textAlignment="center"
+            android:textColor="#26733b"
+            android:textSize="44sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:text="Enter Your Reg. No."
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/reg_no_text_field"
+                        android:layout_width="144dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        android:background="#333333"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Your Achievements (100 words Max)"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/achievements_text_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="#333333"
+                    android:textColor="#ffffff" />
+
+                <EditText
+                    android:id="@+id/links_text_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="#333333"
+                    android:hint="Links for your Achievements"
+                    android:paddingLeft="16dp"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#999999" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Why do you want to apply? (100 words Max)"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/reasons_text_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="#333333"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/apply_button"
+                    android:layout_width="150dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="36dp"
+                    android:layout_marginTop="32dp"
+                    android:background="#555555"
+                    android:text="Apply"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="hk.ust.cse.comp107x.vit_clubs_chapters">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".EventDetailsOriginal.EventDetails"
+            android:label="@string/title_activity_event_details"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginPage.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+
+            <!-- android:theme="@style/AppTheme.NoActionBar"> -->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".IntroActivity"
+            android:theme="@style/Theme.Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BlankActivity" />
+        <activity android:name=".ClubChapterDetails.ClubChapterDetailsActivity" />
+        <activity android:name=".ContactClubChapter.ContactActivity" />
+        <activity android:name=".Recruitments.RecruitmentsActivity" />
+        <activity android:name=".HelpAndSupport.HelpAndSupportActivity" />
+        <activity
+            android:name=".ChatApp.ChatActivityMine"
+            android:windowSoftInputMode="stateHidden|adjustResize|adjustPan" />
+        <activity android:name=".ChatBox.ChatActivity" />
+        <activity android:name=".LoginPage.SignUpActivity" />
+        <activity android:name=".AccountActivity.LoginActivityFirebase" />
+        <activity android:name=".AccountActivity.SignUpActivityFirebase" />
+        <activity android:name=".AccountActivity.ResetPasswordActivityFirebase" />
+        <activity android:name=".AccountActivity.MainActivityFirebase" />
+        <activity
+            android:name=".HelpAndSupport.DevelopersActivity"
+            android:label="Developers" />
+        <activity
+            android:name=".HelpAndSupport.DocumentationActivity"
+            android:label="Documentation" />
+        <activity android:name=".Recruitments.OnGoingRecruitmentsActivity" />
+        <activity android:name=".Recruitments.RequestRecruitmentActivity"></activity>
+    </application>
+
+</manifest>

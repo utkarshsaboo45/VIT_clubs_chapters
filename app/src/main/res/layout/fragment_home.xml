@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<TextView-->
+        <!--android:id="@+id/text"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:layout_toRightOf="@+id/image"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/dialogButtonOK"-->
+        <!--android:layout_width="100px"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text=" Ok "-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/home_event_images_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="-32dp"
+            android:layout_marginTop="55dp" />
+
+        <LinearLayout
+            android:id="@+id/sliderDots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/home_event_images_viewpager"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#181818">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--  .............................BREAK............................. -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="2dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.8"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/homeevent1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Event title here..."
+                        android:textColor="#4d2828"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:text="Event Details will be displayed here..."
+                        android:textColor="#795548"
+                        android:textStyle="italic" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true">
+
+                            <Button
+                                android:id="@+id/b1_1"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                            <Button
+                                android:id="@+id/b1_2"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                            <Button
+                                android:id="@+id/b1_3"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <!--  .............................BREAK............................. -->
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="2dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.8"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/homeevent2"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Event title here..."
+                        android:textColor="#4d2828"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:text="Event Details will be displayed here..."
+                        android:textColor="#795548"
+                        android:textStyle="italic" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true">
+
+                            <Button
+                                android:id="@+id/b2_1"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                            <Button
+                                android:id="@+id/b2_2"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                            <Button
+                                android:id="@+id/b2_3"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <!--  .............................BREAK............................. -->
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="2dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.8"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/homeevent3"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Event title here..."
+                        android:textColor="#4d2828"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:text="Event Details will be displayed here..."
+                        android:textColor="#795548"
+                        android:textStyle="italic" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true">
+
+                            <Button
+                                android:id="@+id/b3_1"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                            <Button
+                                android:id="@+id/b3_2"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                            <Button
+                                android:id="@+id/b3_3"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <!--  .............................BREAK............................. -->
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="2dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.8"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/homeevent4"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Event title here..."
+                        android:textColor="#4d2828"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:text="Event Details will be displayed here..."
+                        android:textColor="#795548"
+                        android:textStyle="italic" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true">
+
+                            <Button
+                                android:id="@+id/b4_1"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                            <Button
+                                android:id="@+id/b4_2"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                            <Button
+                                android:id="@+id/b4_3"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <!--  .............................BREAK............................. -->
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="2dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.8"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/homeevent5"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Event title here..."
+                        android:textColor="#4d2828"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:text="Event Details will be displayed here..."
+                        android:textColor="#795548"
+                        android:textStyle="italic" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true">
+
+                            <Button
+                                android:id="@+id/b5_1"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                            <Button
+                                android:id="@+id/b5_2"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                            <Button
+                                android:id="@+id/b5_3"
+                                android:layout_width="@dimen/home_button_width"
+                                android:layout_height="@dimen/home_button_height"
+                                android:layout_margin="6dp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <!--  .............................BREAK............................. -->
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
